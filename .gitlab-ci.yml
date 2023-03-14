@@ -8,5 +8,5 @@ unit-test-job:   # This job runs in the test stage.
   - pip install -r requirements.txt
   script:
     - echo "Running unit tests..."
-    - pytest tests.py
+    - pytest test_.py
     - echo "DONE"
