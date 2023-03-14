@@ -1,22 +1,26 @@
-<h1>Cryptography app</h1>
-<h2>Discover several encryption and hashing algorithms and learn more about their purpose and how they work</h2>
-<p>Cryptography is playing a huge part in today's world. This application allows you to try many encryption and hashing techniques while giving you detailed information about them. KryptX is not meant to be a secure solution to encrypt your data. Instead, it aims to tell you more about the most commonly used systems today, as well as some old encryption techniques that made history.</p>
+<h1>Brief Journée d'intégration</h1>
+
+# Contexte
+
+<p>Après avoir révolutionné la façon de travailler dans plusieurs entreprises, on finit par vous proposer un poste de manager chez un gros éditeur de logiciels. Bien joué !
+
+Malheureusement, vous déchantez vite : les équipes de développement travaillent de façon chaotique. Les logiciels sont souvent distribués à la va-vite et les utilisateurs se plaignent de nombreux bugs. Complètement dépassé par la situation, votre collègue William vous appelle à la rescousse. Son équipe de développement et lui viennent de se faire remonter les bretelles par Lakhbir, le grand patron. Le dernier chatbot qu’ils ont développé est bourré de bugs, en plus d’insulter ses utilisateurs ! Pour éviter un désastre, William vous demande de former son équipe aux techniques d’intégration continue afin de s’assurer de la qualité des applications fournies aux clients.
+
+Pour montrer à l’équipe de William comment faire, vous prenez pour exemple une application de cryptographie réalisée il y a quelques années. Comme vous ne savez plus si les algorithmes utilisés fonctionnent correctement, vous décidez de réaliser des tests unitaires dessus pour faire une démonstration.</p>
+
 <h2>Features</h2>
 
- - 4 modern encryption tehniques: AES, Blowfish, RSA, DES
- - 3 historical encryption techniques: Caesar Cipher, Vigenère Cipher, Enigma M3
- - 2 hashing techniques: MD5 & SHA
--  Each technique comes with an information box that tells you more about its history as well as its main features
+ - 4 techniques moderne d'encryptation: AES, Blowfish, RSA, DES
+ - 3 techniques historique d'encryptation: Caesar Cipher, Vigenère Cipher, Enigma M3
+ - 2 techniques d'hashing: MD5 & SHA
 
-<h2>How it was made</h2>
 
- -   Backend in Flask
- -   Frontend in HTML-CSS-JavaScript
+<h2>Comment faire les tests sur Github et Gitlab</h2>
 
-<h2>How to run the app</h2>
-
-In the project's root folder, run:
+<p> Il faut installés les dépendances ainsi que les librairies grace au: 
 
 `pip install -r requirements.txt`
 
-`python run_test_server.py`
+ensuite pour effectué les tests il faut faire un `pytest -v`
+
+</p>

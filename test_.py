@@ -19,7 +19,6 @@ def test_2():
     assert 2 + 2 == 4
     
 
-
 def test_enigma():
     """
     Premier exemple de test (vous n'avez rien à faire ici !)
@@ -123,6 +122,8 @@ def test_caesar_cipher():
 
 
 if __name__ == "__main__":
+    
+    test_equality()
     test_aes()
     test_md5()
     test_sha()
